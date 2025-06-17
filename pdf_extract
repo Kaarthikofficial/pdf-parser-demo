@@ -1,4 +1,0 @@
-import fitz  # PyMuPDF
-
-doc = fitz.open("Payslip_4049107.pdf")
-print(doc[0].get_text())
