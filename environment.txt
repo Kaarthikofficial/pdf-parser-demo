@@ -1,8 +1,0 @@
-name: binder-env
-channels:
-  - conda-forge
-dependencies:
-  - python=3.9
-  - pip
-  - pip:
-    - git+https://github.com/pymupdf/PyMuPDF.git
